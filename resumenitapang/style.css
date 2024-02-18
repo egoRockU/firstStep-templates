@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: rgb(82, 138, 194);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.2);
+}
+
+.container .left {
+    position: relative;
+    background: #138376;
+    padding-left: 40px;
+}
+
+.container .right {
+    position: relative;
+    background: #fff;
+    padding: 40px;
+    display: flex; /* Added */
+    flex-direction: column;
+    align-items: start; /* Added */
+}
+
+.profileText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.profileText .profileImg {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profileText .profileImg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profileText h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em; /* Added semicolon */
+}
+
+.profileText h2 span {
+    font-size: 0.7em;
+    font-weight: 300;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.education {
+    padding: 20px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.education ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.education ul li {
+    padding: 10px 0;
+}
+
+.title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.line {
+    margin-bottom: 20px;
+}
+
+.info ul {
+    position: relative;
+}
+
+.info ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.info ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 20px;
+    color: #0af60a;
+}
+
+.info ul li span {
+    color: #fff;
+    font-weight: 200;
+}
+
+.info .title {
+    margin-bottom: 15px;
+}
+
+.class {
+    border: 2px solid black;
+}
+
+.education ul li {
+    list-style: none;
+}
+
+
+.expertise {
+    padding: 30px 0 0 20px;
+    color: white;
+}
+
+.expertise ul li {
+    margin-bottom: 20px;
+}
+.title2 {
+    margin-bottom: 10px;
+}
+
+.desc {
+    margin-bottom: 20px;
+}
+
+.experience {
+    width: 100%;
+}
+
+.blackline {
+    border: solid 1px black;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.experience .date {
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.experience .companyName {
+    margin-bottom: 8px;
+    color: gray;
+}
+
+.experience h1 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.experience .desc {
+    margin-bottom: 30px;
+}
+
+.reference {
+    width: 100%;
+}
+
+.reference h1 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.reference .box {
+    display: flex;
+    justify-content: space-between;
+}
